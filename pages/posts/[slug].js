@@ -1,4 +1,4 @@
-//import { Layout } from "../../components/Layout";
+import { Layout } from "../../components/Layout/Layout";
 import { useTina } from "tinacms/dist/react";
 import { client } from "../../tina/__generated__/client";
 
@@ -11,7 +11,6 @@ export default function Home(props) {
   });
 
   return (
-    /*
     <Layout>
       <code>
         <pre
@@ -23,8 +22,6 @@ export default function Home(props) {
         </pre>
       </code>
     </Layout>
-    */
-   <h1>hola</h1>
   );
 }
 
