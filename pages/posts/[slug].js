@@ -12,19 +12,9 @@ export default function Home(props) {
   });*/
 
   return (
-    <Layout>
-      {/*}
-      <code>
-        <pre
-          style={{
-            backgroundColor: "lightgray",
-          }}
-        >
-          {JSON.stringify(data.post, null, 2)}
-        </pre>
-      </code>
-        {*/}
-    </Layout>
+
+    <h1>test</h1>
+    
   );
 }
 /*
