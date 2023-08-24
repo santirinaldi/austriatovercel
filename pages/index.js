@@ -1,5 +1,5 @@
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-//import { Layout } from "../components/Layout/Layout";
+import { Layout } from "../components/Layout/Layout";
 
 
 import { tinaField, useTina } from "tinacms/dist/react";
@@ -25,7 +25,7 @@ export default function Home(props) {
   */
 
   return (
-    /*
+    
     <Layout title={props.gs_data.name} logo={props.gs_data.logo} menu={props.gs_data.menu}>
       
       <Hero logo={props.gs_data.logo} hero_image={props.hh_data} />
@@ -41,9 +41,7 @@ export default function Home(props) {
       <ContactForm />
 
 
-    </Layout>*/
-
-    <h1>hola</h1>
+    </Layout>
   );
 }
 
